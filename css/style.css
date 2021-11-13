@@ -399,7 +399,7 @@ header .dropdown:hover .dropdown-content{
   font-size: 1.5rem;
   padding:2rem 1;
   text-transform: none;
-  text-align: justify;
+  text-align: left;
 }
 
 .struktur-kurikulum .box ol li{
@@ -407,7 +407,7 @@ header .dropdown:hover .dropdown-content{
   font-size: 1.5rem;
   padding:2rem 1;
   text-transform: none;
-  text-align: justify;
+  text-align: left;
 }
 
 .kompetensi-lulusan{
