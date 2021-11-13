@@ -157,7 +157,6 @@ header .dropdown:hover .dropdown-content{
 }
 
 /* MENU */
-
 #menu{
   font-size: 2.5rem;
   padding:.5rem 1rem;
@@ -169,7 +168,6 @@ header .dropdown:hover .dropdown-content{
 
 
 /* BERANDA */
-
 .home{
   display: flex;
   flex-wrap: wrap;
@@ -210,7 +208,6 @@ header .dropdown:hover .dropdown-content{
 
 
 /* DOSEN */
-
 .lecturer{
   display: flex;
   flex-wrap: wrap;
@@ -269,7 +266,6 @@ header .dropdown:hover .dropdown-content{
 }
 
 /* SEJARAH DAN VISI MISI */
-
 .sejarah{
   display: flex;
   flex-wrap: wrap;
@@ -345,7 +341,6 @@ header .dropdown:hover .dropdown-content{
 }
 
 /* STRUKTUR ORGANISASI */
-
 .struktur-organisasi{
   display: flex;
   flex-wrap: wrap;
@@ -366,9 +361,123 @@ header .dropdown:hover .dropdown-content{
   object-fit: cover;
 }
 
+/*  KURIKULUM */
+.struktur-kurikulum{
+  display: flex;
+  flex-wrap: wrap;
+  gap:1.5rem;
+}
+
+.struktur-kurikulum .box{
+  flex:1 1 23rem;
+  border:.1rem solid rgba(0,0,0,.1);
+  border-radius:.5rem;
+  padding:1.5rem;
+  text-align: center;
+}
+
+.struktur-kurikulum .box h2{
+  color:rgb(5, 1, 48);
+}
+
+.struktur-kurikulum .box img{
+  height: 8rem;
+  width: 8rem;
+  object-fit: cover;
+}
+
+.struktur-kurikulum .box p{
+  color:rgb(5, 1, 48);
+  font-size: 1.5rem;
+  padding:1rem 0;
+  text-transform: none;
+  text-align: justify;
+}
+
+.struktur-kurikulum .box ul li{
+  color:rgb(5, 1, 48);
+  font-size: 1.5rem;
+  padding:2rem 1;
+  text-transform: none;
+  text-align: justify;
+}
+
+.struktur-kurikulum .box ol li{
+  color:rgb(5, 1, 48);
+  font-size: 1.5rem;
+  padding:2rem 1;
+  text-transform: none;
+  text-align: justify;
+}
+
+.kompetensi-lulusan{
+  display: flex;
+  flex-wrap: wrap;
+  gap:1.5rem;
+}
+
+.kompetensi-lulusan .box{
+  flex:1 1 23rem;
+  border:.1rem solid rgba(0,0,0,.1);
+  border-radius:.5rem;
+  padding:1.5rem;
+  text-align: center;
+}
+
+.kompetensi-lulusan .box h2{
+  color:rgb(5, 1, 48);
+}
+
+.kompetensi-lulusan .box ul li{
+  color:rgb(5, 1, 48);
+  font-size: 1.5rem;
+  padding:2rem 1;
+  text-transform: none;
+  text-align: justify;
+}
+
+.prospek-lulusan{
+  display: flex;
+  flex-wrap: wrap;
+  gap:1.5rem;
+}
+
+.prospek-lulusan .box{
+  flex:1 1 23rem;
+  border:.1rem solid rgba(0,0,0,.1);
+  border-radius:.5rem;
+  padding:1.5rem;
+  text-align: center;
+}
+
+.prospek-lulusan .box h2{
+  color:rgb(5, 1, 48);
+}
+
+.prospek-lulusan .box p{
+  color:rgb(5, 1, 48);
+  font-size: 1.5rem;
+  padding:1rem 0;
+  text-transform: none;
+  text-align: justify;
+}
+
+
+/*  AKREDTASI */
+.akreditasi .box img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.akreditasi p{
+   color:rgb(5, 1, 48);
+  font-size: 1.5rem;
+  padding:1rem 0;
+  text-transform: none;
+  text-align: justify;
+} 
 
 /* FASILITAS */
-
 * {box-sizing:border-box}
 
 /* Slideshow container */
@@ -513,7 +622,6 @@ div.desc {
 
 
 /* AKTIVITAS */
-
 .activities{
   display: flex;
   flex-wrap: wrap;
@@ -568,7 +676,6 @@ div.desc {
 
 
 /* BERITA */
-
 .news{
   display: flex;
   flex-wrap: wrap;
@@ -625,7 +732,6 @@ div.desc {
 
 
 /* CONTACT */
-
 .contact{
   display: flex;
   flex-wrap: wrap;
