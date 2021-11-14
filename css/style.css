@@ -201,9 +201,8 @@ header .dropdown:hover .dropdown-content{
 
 .home .content h3{
   color:black;
-  -webkit-background-clip: text;
-  background-clip: text;
-  font-size: 4rem;
+  padding:.5rem 0;
+  font-size: 3rem;
   text-transform:none;
 }
 
