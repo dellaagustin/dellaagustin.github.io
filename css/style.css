@@ -75,6 +75,10 @@ section{
   font-size: 1.7rem;
 }
 
+#more{
+  display: none;
+}
+
 .btn:hover{
   background:var(--gradient);
 }
