@@ -199,18 +199,12 @@ header .dropdown:hover .dropdown-content{
   width:100%;
 }
 
-.home .content h1{
+.home .content h3{
   color:black;
   -webkit-background-clip: text;
   background-clip: text;
   font-size: 4rem;
-}
-
-.home .content h3{
-  color:transparent;
-  -webkit-background-clip: text;
-  background-clip: text;
-  font-size: 4rem;
+  text-transform:none;
 }
 
 .home .content p{
