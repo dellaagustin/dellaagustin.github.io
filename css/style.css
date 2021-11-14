@@ -498,12 +498,9 @@ header .dropdown:hover .dropdown-content{
   margin-right: 1.5rem;
 }
 
-.galeri .box .deskripsi{
-  color:rgb(5, 1, 48);
-  font-size: 28px;
-  padding:1rem 0;
-  text-transform: none;
-  text-align: center;
+.galeri .box span{
+  color:black;
+  font-size: 2rem;
 }
   
 
