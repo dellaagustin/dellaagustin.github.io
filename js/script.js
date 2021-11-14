@@ -6,6 +6,22 @@ menu.onclick = () =>{
   navbar.classList.toggle('active');
 }
 
+function myFunction() {
+  var dots = document.getElementById("dots");
+  var moreText = document.getElementById("more");
+  var btnText = document.getElementById("myBtn");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "Lebih banyak"; 
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "Lebih sedikit"; 
+    moreText.style.display = "inline";
+  }
+}
+
 window.onscroll = () =>{
   menu.classList.remove('fa-times');
   navbar.classList.remove('active');
