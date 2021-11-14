@@ -43,14 +43,12 @@ section{
 }
 
 .container{
-  background:#fff;
   border-radius: .5rem;
   box-shadow: 0 .5rem 1rem rgba(0,0,0,.2);
 }
 
 .heading{
   color:rgb(5, 1, 48);
-  background:var(--gradient);
   -webkit-background-clip: text;
   background-clip: text;
   padding:0 1rem;
@@ -198,7 +196,6 @@ header .dropdown:hover .dropdown-content{
 
 .home .content h3{
   color:transparent;
-  background:var(--gradient);
   -webkit-background-clip: text;
   background-clip: text;
   font-size: 4rem;
@@ -257,21 +254,6 @@ header .dropdown:hover .dropdown-content{
   color:#666;
   font-size: 1.5rem;
   padding:1rem 0;
-}
-
-.lecturer .box .share a{
-  height:4rem;
-  width:4rem;
-  line-height: 4rem;
-  font-size: 2rem;
-  background:var(--pink);
-  border-radius: .5rem;
-  margin:.3rem;
-  color:#fff;
-}
-
-.lecturer .box .share a:hover{
-  background:var(--violet);
 }
 
 /* SEJARAH DAN VISI MISI */
@@ -801,25 +783,6 @@ div.desc {
   height: 20rem;
   resize: none;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /* FOOTER */
