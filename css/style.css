@@ -31,8 +31,11 @@ html::-webkit-scrollbar-thumb{
 }
 
 body{
-  background:var(--gradient);
   padding:2rem 3%;
+  background-image: "Sistem informasi kelautan (1).png";
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
 }
 
 section{
