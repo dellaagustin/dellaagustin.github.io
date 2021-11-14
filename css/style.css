@@ -857,16 +857,11 @@ div.desc {
 }
 
 .footer .box-container .box p i{
-  padding-right: .3rem;
+  padding-right: .5rem;
   color:var(--pink);
-  text-transform:none;
+
 }
 
-.footer .box-container .box p a{
-  padding-right: .3rem;
-  color:var(--pink);
-  text-transform:none;
-}
 
 .footer .credit{
   margin-top: 17cm;
