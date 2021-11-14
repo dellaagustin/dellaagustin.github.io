@@ -406,8 +406,8 @@ header .dropdown:hover .dropdown-content{
   font-size: 1.5rem;
   padding:3rem 1;
   text-transform: none;
-  text-align: left;
-  margin-left:2rem;
+  text-align: justify;
+  margin-left:3.8rem;
 }
 
 .struktur-kurikulum .box ol li{
@@ -415,7 +415,8 @@ header .dropdown:hover .dropdown-content{
   font-size: 1.5rem;
   padding:3rem 1;
   text-transform: none;
-  text-align: left;
+  text-align: justify;
+  margin-left:3.8rem;
 }
 
 .kompetensi-lulusan{
@@ -443,6 +444,7 @@ header .dropdown:hover .dropdown-content{
   padding:3rem 1;
   text-transform: none;
   text-align: justify;
+  margin-left:3.8rem;
 }
 
 .prospek-lulusan{
