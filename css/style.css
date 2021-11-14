@@ -378,11 +378,12 @@ header .dropdown:hover .dropdown-content{
   flex:1 1 23rem;
   border:.1rem solid rgba(0,0,0,.1);
   border-radius:.5rem;
-  padding:1.5rem;
+  padding:2rem;
   text-align: center;
 }
 
 .struktur-kurikulum .box h2{
+  font-size:17px;
   color:rgb(5, 1, 48);
 }
 
@@ -403,7 +404,7 @@ header .dropdown:hover .dropdown-content{
 .struktur-kurikulum .box ul li{
   color:rgb(5, 1, 48);
   font-size: 1.5rem;
-  padding:2rem 1;
+  padding:3rem 1;
   text-transform: none;
   text-align: left;
 }
@@ -411,7 +412,7 @@ header .dropdown:hover .dropdown-content{
 .struktur-kurikulum .box ol li{
   color:rgb(5, 1, 48);
   font-size: 1.5rem;
-  padding:2rem 1;
+  padding:3rem 1;
   text-transform: none;
   text-align: left;
 }
@@ -426,18 +427,19 @@ header .dropdown:hover .dropdown-content{
   flex:1 1 23rem;
   border:.1rem solid rgba(0,0,0,.1);
   border-radius:.5rem;
-  padding:1.5rem;
+  padding:2rem;
   text-align: center;
 }
 
 .kompetensi-lulusan .box h2{
+  font-size:17px;
   color:rgb(5, 1, 48);
 }
 
 .kompetensi-lulusan .box ul li{
   color:rgb(5, 1, 48);
   font-size: 1.5rem;
-  padding:2rem 1;
+  padding:3rem 1;
   text-transform: none;
   text-align: justify;
 }
@@ -452,11 +454,12 @@ header .dropdown:hover .dropdown-content{
   flex:1 1 23rem;
   border:.1rem solid rgba(0,0,0,.1);
   border-radius:.5rem;
-  padding:1.5rem;
+  padding:2rem;
   text-align: center;
 }
 
 .prospek-lulusan .box h2{
+  font-size:17px;
   color:rgb(5, 1, 48);
 }
 
