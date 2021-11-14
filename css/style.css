@@ -857,8 +857,9 @@ div.desc {
 }
 
 .footer .box-container .box p i a{
-  padding-right: .5rem;
+  padding-right: .3rem;
   color:var(--pink);
+  text-transform:none;
 }
 
 .footer .credit{
