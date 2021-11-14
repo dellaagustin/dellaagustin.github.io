@@ -856,7 +856,13 @@ div.desc {
   color:var(--pink);
 }
 
-.footer .box-container .box p i a{
+.footer .box-container .box p i{
+  padding-right: .3rem;
+  color:var(--pink);
+  text-transform:none;
+}
+
+.footer .box-container .box p a{
   padding-right: .3rem;
   color:var(--pink);
   text-transform:none;
