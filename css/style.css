@@ -198,11 +198,16 @@ header .dropdown:hover .dropdown-content{
   width:100%;
 }
 
-.home .content h3{
+.home .content h1{
   color:transparent;
   -webkit-background-clip: text;
   background-clip: text;
   font-size: 4rem;
+}
+
+.home .content h3{
+  font-color: black;
+  font-size: 17rem;
 }
 
 .home .content p{
