@@ -407,6 +407,7 @@ header .dropdown:hover .dropdown-content{
   padding:3rem 1;
   text-transform: none;
   text-align: left;
+  margin-left:2rem;
 }
 
 .struktur-kurikulum .box ol li{
