@@ -861,15 +861,8 @@ div.desc {
   color:var(--pink);
 }
 
-.footer .box-container .box p a{
-  display: block;
-  font-size: 1.5rem;
-  color: mistyrose;
-  padding:.7rem 0;
-  text-transform:none;
-}
-
 .footer .box-container .box p a:hover{
+  display:block;
   color:orange;
 }
 
