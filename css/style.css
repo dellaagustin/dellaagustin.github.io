@@ -478,22 +478,50 @@ header .dropdown:hover .dropdown-content{
   text-align: justify;
 } 
 
+/* GALERI */
+.galeri{
+  display: flex;
+  flex-wrap: wrap;
+  gap:1.5rem;
+}
+
+.galeri .box{
+  border-radius: .5rem;
+  border:.1rem solid rgba(0,0,0,.1);
+  padding:1rem;
+  flex:1 1 30rem;
+}
+
+.galeri .box img{
+  border-radius: 100%;
+  object-fit: cover;
+  height: 7rem;
+  width:7rem;
+  margin-right: 1.5rem;
+}
+
+.galeri .box .deskripsi{
+   color:rgb(5, 1, 48);
+  font-size: 2.5rem;
+  padding:1rem 0;
+  text-transform: none;
+  text-align: center;
+}
+  
+
 /* FASILITAS */
 * {box-sizing:border-box}
 
-/* Slideshow container */
 .facilities .slideshow-container {
   max-width: 1000px;
   position: relative;
   margin: auto;
 }
 
-/* Make the images invisible by default */
 .facilities .Containers {
   display: none;
 }
 
-/* forward & Back buttons */
 .facilities .Back, .forward {
   cursor: pointer;
   position: absolute;
@@ -509,13 +537,11 @@ header .dropdown:hover .dropdown-content{
   user-select: none;
 }
 
-/* Place the "forward button" to the right */
 .facilities .forward {
   right: 0;
   border-radius: 4px 0 0 4px;
 }
 
-/*when the user hovers,add a black background with some little opacity */
 .facilities .Back:hover, .forward:hover {
   background-color: rgba(0,0,0,0.8);
 }
