@@ -853,13 +853,24 @@ div.desc {
 }
 
 .footer .box-container .box a:hover{
-  color:var(--pink);
+  color:orange;
 }
 
 .footer .box-container .box p i{
   padding-right: .5rem;
   color:var(--pink);
+}
 
+.footer .box-container .box p a{
+  display: block;
+  font-size: 1.5rem;
+  color: mistyrose;
+  padding:.7rem 0;
+  text-transform:none;
+}
+
+.footer .box-container .box p a:hover{
+  color:orange;
 }
 
 
