@@ -494,9 +494,9 @@ header .dropdown:hover .dropdown-content{
 
 .galeri .box img{
   object-fit: cover;
-  width:800px;
-  height:800px;
-  margin-right: 1.5rem;
+  width:100%;
+  height:auto;
+  margin:center;
 }
 
 .galeri .box span{
