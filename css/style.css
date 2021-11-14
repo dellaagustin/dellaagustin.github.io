@@ -200,7 +200,7 @@ header .dropdown:hover .dropdown-content{
 }
 
 .home .content h1{
-  color:transparent;
+  color:black;
   -webkit-background-clip: text;
   background-clip: text;
   font-size: 4rem;
